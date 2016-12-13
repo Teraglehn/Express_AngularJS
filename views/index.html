@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="coreApp">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="/bower/angular-material/angular-material.min.css">
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <base href="/app/">
+  </head>
+  <body>
+  <ui-view></ui-view>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="/bower/angular/angular.min.js"></script>
+  <script src="/bower/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/bower/angular-animate/angular-animate.min.js"></script>
+  <script src="/bower/angular-aria/angular-aria.min.js"></script>
+  <script src="/bower/angular-messages/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="/bower/angular-material/angular-material.min.js"></script>
+
+  <script src="/app/coreApp.js"></script>
+  <script src="/app/controllers/indexController.js"></script>
+  </body>
+</html>

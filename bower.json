@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-angular1-browsersync",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Bastien Saro Chassetuillier <bastien.saro.c@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-material": "^1.1.1",
+    "angular-ui-router": "^0.3.2"
+  }
+}

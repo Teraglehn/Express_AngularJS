@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-angular1-browsersync",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "node ./bin/www & npm run-script bsync",
+    "bsync": "browser-sync start --proxy 'localhost:3000' --files 'public'",
+    "postinstall" : "bower install"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "bower": "^1.8.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "less-middleware": "~2.2.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "nodemon": "^1.11.0"
+  }
+}
