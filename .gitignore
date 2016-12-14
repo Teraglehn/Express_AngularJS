@@ -1,4 +1,4 @@
-public/bower/
+bower_components/
 public/stylesheets/**/*.css
 *.map.css
 
